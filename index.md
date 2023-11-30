@@ -2,7 +2,7 @@
 layout: project_page
 permalink: /
 
-title: SparseGS: Real-Time 360° Sparse View Synthesis using Gaussian Splatting
+title: "SparseGS: Real-Time 360° Sparse View Synthesis using Gaussian Splatting"
 authors:
     Haolin Xiong &emsp; Sairisheek Muttukuru &emsp; Rishi Upadhyay &emsp; Pradyumna Chari &emsp; Achuta Kadambi
 affiliations:
@@ -26,11 +26,11 @@ The problem of novel view synthesis has grown significantly in popularity recent
 
 <div style="text-align: center;">
     <figure>
-        <img src=".\static\image\teaser_gt.JPG" alt="Ground Truth" width="300" />
-        <img src=".\static\image\teaser_sparsenerf.jpg" alt="SparseNeRF" width="300" />
-        <img src=".\static\image\teaser_mipnerf360.png" alt="MipNeRF360" width="300" />
-        <img src=".\static\image\teaser_base3DGS.png" alt="3DGS" width="300" />
-        <img src=".\static\image\teaser_ours.png" alt="Ours" width="300" />
+        <img src=".\static\image\teaser_gt.JPG" alt="Ground Truth" width="200" />
+        <img src=".\static\image\teaser_sparsenerf.jpg" alt="SparseNeRF" width="200" />
+        <img src=".\static\image\teaser_mipnerf360.png" alt="MipNeRF360" width="200" />
+        <img src=".\static\image\teaser_base3DGS.png" alt="3DGS" width="200" />
+        <img src=".\static\image\teaser_ours.png" alt="Ours" width="200" />
         <figcaption>From left to right: GT, SparseNeRF, MipNeRF360, 3DGS, Ours</figcaption>
     </figure>
 </div>
