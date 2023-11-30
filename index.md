@@ -50,7 +50,13 @@ The paper "On Computable Numbers, with an Application to the Entscheidungsproble
 ## Objective
 Turing's main objective in this paper was to investigate the notion of computability and its relation to the Entscheidungsproblem (the decision problem), which is concerned with determining whether a given mathematical statement is provable or not.
 
-![Pipieline](\static\image\model_flowchart.png)
+<div style="text-align: left;">
+    <figure>
+        <img src=".\static\image\model_flowchart.png" alt="Ground Truth" width="800" />
+        <figcaption>Our proposed pipeline integrates depth and diffusion constraints, along with a floater pruning technique, to enhance the performance of few-shot novel view synthesis. During training, we render the alpha-blended depth, denoted as d<sup>alpha</sup> , and employ <b>Pearson correlation</b> to ensure its alignment with the monocularly estimated depth d<sup>pt</sup>. Furthermore, we impose a <b>score distillation sampling loss</b> on novel viewpoints to guarantee the generation of naturally-appearing images. At predetermined intervals, we execute <b>floater pruning</b> as described in Section 3 of our paper. In this illustration, new components that we introduce are highlighted in color, while the foundational 3D Gaussian Splatting pipeline is depicted in grey.</figcaption>
+    </figure>
+</div>
+
 
 ## Key Ideas
 1. 
