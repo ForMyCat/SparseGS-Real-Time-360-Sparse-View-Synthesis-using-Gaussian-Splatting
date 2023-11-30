@@ -14,9 +14,9 @@ authors:
   - name: Achuta Kadambi
     url: https://www.ee.ucla.edu/achuta-kadambi
 affiliations: University of California, Los Angeles
-paper: 
-video: 
-code: 
+paper: Coming Soon
+video: Coming Soon
+code: Coming Soon
 
 ---
 
