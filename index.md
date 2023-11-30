@@ -1,9 +1,8 @@
 ---
 layout: project_page
 permalink: /
-
 title: "SparseGS: Real-Time 360° Sparse View Synthesis using Gaussian Splatting"
-authors:  
+authors:
   - name: Haolin Xiong
     url: https://www.linkedin.com/in/haolin-xiong-927221176
   - name: Sairisheek Muttukuru
@@ -14,11 +13,11 @@ authors:
     url: https://pradyumnachari.github.io
   - name: Achuta Kadambi
     url: https://www.ee.ucla.edu/achuta-kadambi
+affiliations: University of California, Los Angeles
+paper: Coming Soon
+video: Coming Soon
+code: Coming Soon
 
-affiliations: "University of California, Los Angeles"
-paper: "Coming Soon"
-video: "Coming Soon"
-code: "Coming Soon"
 ---
 
 <div class="columns is-centered has-text-centered">
