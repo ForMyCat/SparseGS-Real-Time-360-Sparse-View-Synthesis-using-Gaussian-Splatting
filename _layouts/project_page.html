@@ -32,7 +32,7 @@
           <div class="is-size-5 publication-authors">
             {% for author in page.authors %}
               <a href="{{ author.url }}" target="_blank">{{ author.name }}</a>{% if forloop.last %}.{% else %}, {% endif %}
-              {% endfor %}
+            {% endfor %}
           </div>
           {% endif %}
 
