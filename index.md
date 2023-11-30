@@ -66,15 +66,15 @@ We introduce a technique for real-time 360 sparse view synthesis by leveraging 3
 ## More Pictures
 <div style="text-align: center;">
     <figure>
-        <img src=".\static\image\gt_1.JPG" alt="Ground Truth" width="300" />
-        <img src=".\static\image\mipnerf_1.png" alt="SparseNeRF" width="300" />
-        <img src=".\static\image\ours_1.png" alt="MipNeRF360" width="300" />
-        <img src=".\static\image\gt_2.JPG" alt="Ground Truth" width="300" />
-        <img src=".\static\image\mipnerf_2.png" alt="SparseNeRF" width="300" />
-        <img src=".\static\image\ours_2.png" alt="MipNeRF360" width="300" />
-        <img src=".\static\image\gt_3.JPG" alt="Ground Truth" width="300" />
-        <img src=".\static\image\mipnerf_3.png" alt="SparseNeRF" width="300" />
-        <img src=".\static\image\ours_3.png" alt="MipNeRF360" width="300" />
+        <img src=".\static\image\gt_1.JPG" alt="Ground Truth" width="250" />
+        <img src=".\static\image\mipnerf_1.png" alt="SparseNeRF" width="250" />
+        <img src=".\static\image\ours_1.png" alt="MipNeRF360" width="250" />
+        <img src=".\static\image\gt_2.JPG" alt="Ground Truth" width="250" />
+        <img src=".\static\image\mipnerf_2.png" alt="SparseNeRF" width="250" />
+        <img src=".\static\image\ours_2.png" alt="MipNeRF360" width="250" />
+        <img src=".\static\image\gt_3.JPG" alt="Ground Truth" width="250" />
+        <img src=".\static\image\mipnerf_3.png" alt="SparseNeRF" width="250" />
+        <img src=".\static\image\ours_3.png" alt="MipNeRF360" width="250" />
         <figcaption>From left to right: GT MipNeRF360 Ours</figcaption>
     </figure>
 </div>
