@@ -2,11 +2,11 @@
 layout: project_page
 permalink: /
 
-title: On Computable Numbers, with an Application to the Entscheidungsproblem
+title: SparseGS: Real-Time 360° Sparse View Synthesis using Gaussian Splatting
 authors:
-    A. M. Turing
+    Haolin Xiong &emsp; Sairisheek Muttukuru &emsp; Rishi Upadhyay &emsp; Pradyumna Chari &emsp; Achuta Kadambi
 affiliations:
-    King's College, Cambridge
+    University of California, Los Angeles
 paper: https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf
 video: https://www.youtube.com/results?search_query=turing+machine
 code: https://github.com/topics/turing-machines
@@ -24,6 +24,18 @@ The problem of novel view synthesis has grown significantly in popularity recent
 
 ---
 
+<div style="text-align: center;">
+    <figure>
+        <img src=".\static\image\teaser_gt.JPG" alt="Ground Truth" width="300" />
+        <img src=".\static\image\teaser_sparsenerf.jpg" alt="SparseNeRF" width="300" />
+        <img src=".\static\image\teaser_mipnerf360.png" alt="MipNeRF360" width="300" />
+        <img src=".\static\image\teaser_base3DGS.png" alt="3DGS" width="300" />
+        <img src=".\static\image\teaser_ours.png" alt="Ours" width="300" />
+        <figcaption>From left to right: GT, SparseNeRF, MipNeRF360, 3DGS, Ours</figcaption>
+    </figure>
+</div>
+
+
 
 ## Background
 The paper "On Computable Numbers, with an Application to the Entscheidungsproblem" was published by Alan Turing in 1936. In this groundbreaking paper, Turing introduced the concept of a universal computing machine, now known as the Turing machine.
@@ -31,6 +43,7 @@ The paper "On Computable Numbers, with an Application to the Entscheidungsproble
 ## Objective
 Turing's main objective in this paper was to investigate the notion of computability and its relation to the Entscheidungsproblem (the decision problem), which is concerned with determining whether a given mathematical statement is provable or not.
 
+![Pipieline](\static\image\model_flowchart.png)
 
 ## Key Ideas
 1. 
@@ -41,9 +54,9 @@ Turing's main objective in this paper was to investigate the notion of computabi
 
 *Figure 1: A representation of a Turing Machine. Source: [Wiki](https://en.wikipedia.org/wiki/Turing_machine).*
 
-## Table: Comparison of Computable and Non-Computable Numbers
+## Table: Some sparse-view NeRF baseline comparisons on the MipNeRF360 dataset
 
-| Model         | PSNR ↑   | SSIM ↑   | LPIPS ↓ | Runtime (h) | Render FPS |
+| Model         | PSNR ↑   | SSIM ↑   | LPIPS ↓ | Runtime\* (h) | Render FPS |
 |---------------|----------|----------|---------|-------------|------------|
 | SparseNeRF    | 11.5638  | 0.3206   | 0.6984  | 4           | 1/120      |
 | Base 3DGS     | 15.3840  | 0.4415   | <u>0.5061</u>  | 0.5         | 30         |
@@ -52,7 +65,9 @@ Turing's main objective in this paper was to investigate the notion of computabi
 | ViP-NeRF      | 11.1622  | 0.2291   | 0.7132  | 4           | 1/120      |
 | Ours          | <u>16.6898</u>  | **0.4899**   | **0.4849**  | 0.75        | 30         |
 
-He used the concept of a universal Turing machine to prove that the set of computable functions is recursively enumerable, meaning it can be listed by an algorithm.
+We use 12 images for each scene.
+\* Runtimes are recorded on one RTX3090.
+
 
 ## Significance
 Turing's paper laid the foundation for the theory of computation and had a profound impact on the development of computer science. The Turing machine became a fundamental concept in theoretical computer science, serving as a theoretical model for studying the limits and capabilities of computation. Turing's work also influenced the development of programming languages, algorithms, and the design of modern computers.
