@@ -3,21 +3,18 @@ layout: project_page
 permalink: /
 
 title: "SparseGS: Real-Time 360° Sparse View Synthesis using Gaussian Splatting"
-authors: {<span class="author-block">
-<a href="https://www.linkedin.com/in/haolin-xiong-927221176">Haolin Xiong</a><sup>1</sup>,
-</span>
-<span class="author-block">
-<a>Sairisheek Muttukuru</a><sup>2</sup>,
-</span>
-<span class="author-block">
-<a href="https://web.cs.ucla.edu/~rishiu/">Rishi Upadhyay</a><sup>2</sup>,
-</span>
-<span class="author-block">
-<a href="https://pradyumnachari.github.io/">Pradyumna Chari</a><sup>2</sup>,
-</span>
-<span class="author-block">
-<a href="https://www.ee.ucla.edu/achuta-kadambi/">Achuta Kadambi</a><sup>2</sup>,
-</span>}
+authors:  
+    - name: Haolin Xiong
+    url: https://www.linkedin.com/in/haolin-xiong-927221176
+    - name: Sairisheek Muttukuru
+    url: https://www.example.com/author2
+    - name: Rishi Upadhyay
+    url: https://web.cs.ucla.edu/~rishiu
+    - name: Pradyumna Chari
+    url: https://pradyumnachari.github.io
+    - name: Achuta Kadambi
+    url: https://www.ee.ucla.edu/achuta-kadambi
+
 
 affiliations:
     University of California, Los Angeles
@@ -39,11 +36,11 @@ The problem of novel view synthesis has grown significantly in popularity recent
 
 <div style="text-align: center;">
     <figure>
-        <img src=".\static\image\teaser_gt.JPG" alt="Ground Truth" width="180" />
-        <img src=".\static\image\teaser_sparsenerf.jpg" alt="SparseNeRF" width="180" />
-        <img src=".\static\image\teaser_mipnerf360.png" alt="MipNeRF360" width="180" />
-        <img src=".\static\image\teaser_base3DGS.png" alt="3DGS" width="180" />
-        <img src=".\static\image\teaser_ours.png" alt="Ours" width="180" />
+        <img src=".\static\image\teaser_gt.JPG" alt="Ground Truth" width="150" />
+        <img src=".\static\image\teaser_sparsenerf.jpg" alt="SparseNeRF" width="150" />
+        <img src=".\static\image\teaser_mipnerf360.png" alt="MipNeRF360" width="150" />
+        <img src=".\static\image\teaser_base3DGS.png" alt="3DGS" width="150" />
+        <img src=".\static\image\teaser_ours.png" alt="Ours" width="150" />
         <figcaption>From left to right: GT, SparseNeRF, MipNeRF360, 3DGS, Ours</figcaption>
     </figure>
 </div>

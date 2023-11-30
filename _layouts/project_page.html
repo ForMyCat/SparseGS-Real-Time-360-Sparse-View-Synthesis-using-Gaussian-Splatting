@@ -30,7 +30,10 @@
           <h1 class="title is-1 publication-title">{{ page.title }}</h1>
           {% if page.authors %}
           <div class="is-size-5 publication-authors">
-            {{ page.authors }}
+            {% for author in page.authors %}
+              <a href="{{ author.url }}" target="_blank">{{ author.name }}</a>{% if forloop.last %}.{% else %}, {% endif %}
+              {% endfor %}
+            </span>
           </div>
           {% endif %}
 
