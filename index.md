@@ -63,6 +63,36 @@ We introduce a technique for real-time 360 sparse view synthesis by leveraging 3
 2. Use off-the-shelf depth estimation models to regularize novel view outputs
 3. Reconstruct regions with low coverage in training views with diffusion-model guidance
 
+## More Pictures
+<div style="text-align: center;">
+  <!-- First row of images -->
+  <div class="image-row">
+    <img src=".\static\image\gt_1.JPG" alt="Ground Truth" width="300" />
+    <img src=".\static\image\mipnerf_1.png" alt="SparseNeRF" width="300" />
+    <img src=".\static\image\ours_1.png" alt="MipNeRF360" width="300" />
+  </div>
+  <!-- Second row of images -->
+  <div class="image-row">
+    <img src=".\static\image\gt_2.JPG" alt="Ground Truth" width="300" />
+    <img src=".\static\image\mipnerf_2.png" alt="SparseNeRF" width="300" />
+    <img src=".\static\image\ours_2.png" alt="MipNeRF360" width="300" />
+  </div>
+  <!-- Third row of images with captions -->
+  <div class="image-row">
+    <figure>
+      <img src=".\static\image\gt_3.JPG" alt="Ground Truth" width="300" />
+      <figcaption>GT</figcaption>
+    </figure>
+    <figure>
+      <img src=".\static\image\mipnerf_3.png" alt="SparseNeRF" width="300" />
+      <figcaption>MipNeRF360</figcaption>
+    </figure>
+    <figure>
+      <img src=".\static\image\ours_3.png" alt="MipNeRF360" width="300" />
+      <figcaption>Ours</figcaption>
+    </figure>
+  </div>
+</div>
 
 ## Table: Some sparse-view NeRF baseline comparisons on the MipNeRF360 dataset
 
