@@ -50,7 +50,6 @@ Turing's main objective in this paper was to investigate the notion of computabi
 2. 
 3. 
 
-![Turing Machine](/static/image/Turing_machine.png)
 
 *Figure 1: A representation of a Turing Machine. Source: [Wiki](https://en.wikipedia.org/wiki/Turing_machine).*
 
