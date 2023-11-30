@@ -3,24 +3,21 @@ layout: project_page
 permalink: /
 
 title: "SparseGS: Real-Time 360° Sparse View Synthesis using Gaussian Splatting"
-authors:
-<div class="is-size-5 publication-authors">
-            <span class="author-block">
-            <a href="https://www.linkedin.com/in/haolin-xiong-927221176">Haolin Xiong</a><sup>1</sup>,</span>
-            <span class="author-block">
-            <a>Sairisheek Muttukuru</a><sup>2</sup>
-            </span>
-            <span class="author-block">
-            <a href="https://web.cs.ucla.edu/~rishiu/">Rishi Upadhyay</a><sup>2</sup>,
-            </span>
-            <span class="author-block">
-            <a href="https://pradyumnachari.github.io/">Pradyumna Chari</a><sup>2</sup>,
-            </span>
-            <span class="author-block">
-            <a href="https://www.ee.ucla.edu/achuta-kadambi/">Achuta Kadambi</a><sup>2</sup>,
-            </span>
-
-</div>
+authors: {<span class="author-block">
+<a href="https://www.linkedin.com/in/haolin-xiong-927221176">Haolin Xiong</a><sup>1</sup>,
+</span>
+<span class="author-block">
+<a>Sairisheek Muttukuru</a><sup>2</sup>,
+</span>
+<span class="author-block">
+<a href="https://web.cs.ucla.edu/~rishiu/">Rishi Upadhyay</a><sup>2</sup>,
+</span>
+<span class="author-block">
+<a href="https://pradyumnachari.github.io/">Pradyumna Chari</a><sup>2</sup>,
+</span>
+<span class="author-block">
+<a href="https://www.ee.ucla.edu/achuta-kadambi/">Achuta Kadambi</a><sup>2</sup>,
+</span>}
 
 affiliations:
     University of California, Los Angeles
