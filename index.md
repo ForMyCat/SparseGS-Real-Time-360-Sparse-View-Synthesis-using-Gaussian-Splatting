@@ -4,13 +4,29 @@ permalink: /
 
 title: "SparseGS: Real-Time 360° Sparse View Synthesis using Gaussian Splatting"
 authors:
-    ![Haolin Xiong](https://www.linkedin.com/in/haolin-xiong-927221176/) &emsp; Sairisheek Muttukuru &emsp; Rishi Upadhyay &emsp; ![Pradyumna Chari](https://pradyumnachari.github.io/) &emsp; ![Achuta Kadambi](https://www.ee.ucla.edu/achuta-kadambi/)
+<div class="is-size-5 publication-authors">
+            <span class="author-block">
+            <a href="https://www.linkedin.com/in/haolin-xiong-927221176">Haolin Xiong</a><sup>1</sup>,</span>
+            <span class="author-block">
+            <a>Sairisheek Muttukuru</a><sup>2</sup>
+            </span>
+            <span class="author-block">
+            <a href="https://web.cs.ucla.edu/~rishiu/">Rishi Upadhyay</a><sup>2</sup>,
+            </span>
+            <span class="author-block">
+            <a href="https://pradyumnachari.github.io/">Pradyumna Chari</a><sup>2</sup>,
+            </span>
+            <span class="author-block">
+            <a href="https://www.ee.ucla.edu/achuta-kadambi/">Achuta Kadambi</a><sup>2</sup>,
+            </span>
+
+</div>
+
 affiliations:
     University of California, Los Angeles
-paper: https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf
-video: https://www.youtube.com/results?search_query=turing+machine
-code: https://github.com/topics/turing-machines
-data: https://huggingface.co/docs/datasets
+paper: 
+video: 
+code: 
 ---
 
 <div class="columns is-centered has-text-centered">
@@ -73,13 +89,10 @@ Turing's paper laid the foundation for the theory of computation and had a profo
 
 ## Citation
 ```
-@article{turing1936computable,
-  title={On computable numbers, with an application to the Entscheidungsproblem},
-  author={Turing, Alan Mathison},
-  journal={Journal of Mathematics},
-  volume={58},
-  number={345-363},
-  pages={5},
-  year={1936}
+@article{xiong2023sparsegs,
+  author    = {Xiong, Haolin and Muttukuru, Sairisheek and Upadhyay, Rishi and Chari, Pradyumna and Kadambi, Achuta},
+  title     = {SparseGS: Real-Time 360° Sparse View Synthesis using Gaussian Splatting},
+  journal   = {Arxiv},
+  year      = {2023},
 }
 ```
