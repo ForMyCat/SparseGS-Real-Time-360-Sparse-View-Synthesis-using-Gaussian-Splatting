@@ -45,26 +45,24 @@ The problem of novel view synthesis has grown significantly in popularity recent
 
 
 ## Background
-The paper "On Computable Numbers, with an Application to the Entscheidungsproblem" was published by Alan Turing in 1936. In this groundbreaking paper, Turing introduced the concept of a universal computing machine, now known as the Turing machine.
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 ## Objective
-Turing's main objective in this paper was to investigate the notion of computability and its relation to the Entscheidungsproblem (the decision problem), which is concerned with determining whether a given mathematical statement is provable or not.
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 <div style="text-align: left;">
     <figure>
-        <img src=".\static\image\model_flowchart.png" alt="Ground Truth" width="800" />
+        <img src=".\static\image\model_flowchart.png" alt="Pipeline" width="800" />
         <figcaption>Our proposed pipeline integrates depth and diffusion constraints, along with a floater pruning technique, to enhance the performance of few-shot novel view synthesis. During training, we render the alpha-blended depth, denoted as d<sup>alpha</sup> , and employ <b>Pearson correlation</b> to ensure its alignment with the monocularly estimated depth d<sup>pt</sup>. Furthermore, we impose a <b>score distillation sampling loss</b> on novel viewpoints to guarantee the generation of naturally-appearing images. At predetermined intervals, we execute <b>floater pruning</b> as described in Section 3 of our paper. In this illustration, new components that we introduce are highlighted in color, while the foundational 3D Gaussian Splatting pipeline is depicted in grey.</figcaption>
     </figure>
 </div>
 
 
 ## Key Ideas
-1. 
-2. 
-3. 
+1. XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+2. XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+3. XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
-
-*Figure 1: A representation of a Turing Machine. Source: [Wiki](https://en.wikipedia.org/wiki/Turing_machine).*
 
 ## Table: Some sparse-view NeRF baseline comparisons on the MipNeRF360 dataset
 
@@ -82,7 +80,7 @@ We use 12 images for each scene.
 
 
 ## Contribution
-Turing's paper laid the foundation for the theory of computation and had a profound impact on the development of computer science. The Turing machine became a fundamental concept in theoretical computer science, serving as a theoretical model for studying the limits and capabilities of computation. Turing's work also influenced the development of programming languages, algorithms, and the design of modern computers.
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 ## Citation
 ```
