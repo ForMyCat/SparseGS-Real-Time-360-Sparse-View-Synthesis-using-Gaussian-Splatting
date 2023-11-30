@@ -64,7 +64,7 @@ We introduce a technique for real-time 360 sparse view synthesis by leveraging 3
 3. Reconstruct regions with low coverage in training views with diffusion-model guidance
 
 ## More Pictures
-<div style="text-align: center;">
+<!-- <div style="text-align: center;">
     <figure>
         <img src=".\static\image\gt_1.JPG" alt="Ground Truth" width="250" />
         <img src=".\static\image\mipnerf_1.png" alt="mipnerf" width="250" />
@@ -77,7 +77,7 @@ We introduce a technique for real-time 360 sparse view synthesis by leveraging 3
         <img src=".\static\image\ours_3.png" alt="ours" width="250" />
         <figcaption>From left to right: GT, MipNeRF360, Ours</figcaption>
     </figure>
-</div>
+</div> -->
 
 ## Table: Some sparse-view NeRF baseline comparisons on the MipNeRF360 dataset
 
