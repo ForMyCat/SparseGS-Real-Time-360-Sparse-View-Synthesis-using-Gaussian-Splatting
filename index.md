@@ -81,15 +81,9 @@ We introduce a technique for real-time 360 sparse view synthesis by leveraging 3
   <div class="image-row">
     <figure>
       <img src=".\static\image\gt_3.JPG" alt="Ground Truth" width="300" />
-      <figcaption>GT</figcaption>
-    </figure>
-    <figure>
       <img src=".\static\image\mipnerf_3.png" alt="SparseNeRF" width="300" />
-      <figcaption>MipNeRF360</figcaption>
-    </figure>
-    <figure>
       <img src=".\static\image\ours_3.png" alt="MipNeRF360" width="300" />
-      <figcaption>Ours</figcaption>
+      <figcaption>From left to right: GT, MipNeRF360, Ours</figcaption>
     </figure>
   </div>
 </div>
