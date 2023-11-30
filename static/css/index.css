@@ -8,26 +8,6 @@ body {
     color: #000;
 }
 
-.image-row {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 8px; /* Space between rows */
-}
-
-.image-row figure {
-  margin: 0 10px; /* Space between figures */
-  text-align: center;
-}
-
-.image-row figure img {
-  width: 300px; /* Adjust as needed */
-  display: block; /* This ensures the image does not have extra space below it */
-}
-
-.image-row figure figcaption {
-  margin-top: 4px; /* Space between image and caption */
-}
-
 .link-block a {
     margin-top: 5px;
     margin-bottom: 5px;
