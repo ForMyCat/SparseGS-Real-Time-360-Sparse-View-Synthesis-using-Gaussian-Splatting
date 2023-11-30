@@ -45,10 +45,10 @@ The problem of novel view synthesis has grown significantly in popularity recent
 
 
 ## Background
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Novel view synthesis has grown significantly in popularity recently thanks to the introduction of implicit 3D scene represenations such as NeRF. These techniques enable many downstream applications in fields ranging from robotics to entertainment. However, most of these techniques are limited by the number of training views required: many need up to 200 views which can be prohibitively high for real-world usage. Prior work has tackled this problem with sparse view techniques, but these almost entirely focus on forward-facing scenes and suffer from long training and inference times of NeRFs.
 
 ## Objective
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+We introduce a technique for real-time 360 sparse view synthesis by leveraging 3D Gaussian Splatting. The explicit nature of our scene representations allows to reduce sparse view artifacts with techniques that directly operate on the scene representation in an adaptive manner. Combined with depth based constraints, we are able to render high-quality novel views and depth maps for unbounded scenes.
 
 <div style="text-align: left;">
     <figure>
@@ -59,9 +59,9 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 
 ## Key Ideas
-1. XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-2. XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-3. XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+1. Leverage the explicit gaussian representation to directly remove unwanted sparse view artifacts such as “floaters” and “background collapse”
+2. Use off-the-shelf depth estimation models to regularize novel view outputs
+3. Reconstruct regions with low coverage in training views with diffusion-model guidance
 
 
 ## Table: Some sparse-view NeRF baseline comparisons on the MipNeRF360 dataset
@@ -78,9 +78,6 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 We use 12 images for each scene.
 \* Runtimes are recorded on one RTX3090.
 
-
-## Contribution
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 ## Citation
 ```
