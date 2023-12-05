@@ -3,9 +3,9 @@ layout: project_page
 permalink: /
 title: "SparseGS: Real-Time 360° Sparse View Synthesis using Gaussian Splatting"
 authors:
-  - name: Haolin Xiong
+  - name: Haolin Xiong*
     url: https://www.linkedin.com/in/haolin-xiong-927221176
-  - name: Sairisheek Muttukuru
+  - name: Sairisheek Muttukuru*
     url: https://www.example.com/author2
   - name: Rishi Upadhyay
     url: https://web.cs.ucla.edu/~rishiu
@@ -19,6 +19,13 @@ video: Coming Soon
 code: Coming Soon
 
 ---
+<div class="columns is-centered has-text-centered">
+  <video width="700" height="300" controls>
+    <source src=".\static\image\360.mp4" type="video/mp4">
+  </video>
+  Left: Base 3DGS      Right: **Ours**
+</div>
+
 
 <div class="columns is-centered has-text-centered">
     <div class="column is-four-fifths">
