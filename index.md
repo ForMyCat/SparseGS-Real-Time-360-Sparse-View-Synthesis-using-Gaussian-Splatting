@@ -20,10 +20,12 @@ code: Coming Soon
 
 ---
 <div class="columns is-centered has-text-centered">
-  <video width="700" height="300" controls>
-    <source src=".\static\image\360.mp4" type="video/mp4">
-  </video>
-  <figcaption>Left: Base 3DGS        Right: **SparseGS**</figcaption>
+  <figure>
+    <video width="700" height="300" controls>
+      <source src=".\static\image\360.mp4" type="video/mp4">
+    </video>
+    <figcaption>Left: Base 3DGS        Right: **SparseGS**</figcaption>
+  </figure>
 </div>
 
 
