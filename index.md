@@ -24,7 +24,7 @@ code: Coming Soon
     <video width="700" height="300" controls>
       <source src=".\static\image\360.mp4" type="video/mp4">
     </video>
-    <figcaption>Left: Base 3DGS        Right: **SparseGS**</figcaption>
+    <figcaption>Left: Base 3DGS        Right: <b>SparseGS</b></figcaption>
   </figure>
 </div>
 
@@ -47,7 +47,7 @@ The problem of novel view synthesis has grown significantly in popularity recent
         <img src=".\static\image\teaser_mipnerf360.png" alt="MipNeRF360" width="150" />
         <img src=".\static\image\teaser_base3DGS.png" alt="3DGS" width="150" />
         <img src=".\static\image\teaser_ours.png" alt="Ours" width="150" />
-        <figcaption>From left to right: GT, SparseNeRF, MipNeRF360, 3DGS, Ours</figcaption>
+        <figcaption>From left to right: GT, SparseNeRF, MipNeRF360, 3DGS, <b>SparseGS</b></figcaption>
     </figure>
 </div>
 
@@ -84,7 +84,7 @@ We introduce a technique for real-time 360 sparse view synthesis by leveraging 3
         <img src=".\static\image\gt_3.JPG" alt="Ground Truth" width="250" />
         <img src=".\static\image\mipnerf_3.png" alt="mipnerf" width="250" />
         <img src=".\static\image\ours_3.png" alt="ours" width="250" />
-        <figcaption>From left to right: GT, MipNeRF360, Ours</figcaption>
+        <figcaption>From left to right: GT, MipNeRF360, <b>SparseGS</b></figcaption>
     </figure>
 </div>
 
