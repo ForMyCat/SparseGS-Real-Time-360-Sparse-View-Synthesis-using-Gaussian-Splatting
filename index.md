@@ -6,7 +6,7 @@ authors:
   - name: Haolin Xiong*
     url: https://www.linkedin.com/in/haolin-xiong-927221176
   - name: Sairisheek Muttukuru*
-    url: https://www.example.com/author2
+    url: https://www.linkedin.com/in/sairisheek/
   - name: Rishi Upadhyay
     url: https://web.cs.ucla.edu/~rishiu
   - name: Pradyumna Chari
