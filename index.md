@@ -21,7 +21,7 @@ code: Coming Soon
 ---
 <div class="columns is-centered has-text-centered">
   <figure>
-    <video width="700" height="300" controls>
+    <video width="700" height="300" controls loop autoplay>
       <source src=".\static\image\360.mp4" type="video/mp4">
     </video>
     <figcaption>Left: Base 3DGS        Right: <b>SparseGS</b></figcaption>
