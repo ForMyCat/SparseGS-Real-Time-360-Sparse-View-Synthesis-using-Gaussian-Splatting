@@ -20,12 +20,9 @@ code: Coming Soon
 
 ---
 <div class="columns is-centered has-text-centered">
-  <figure>
-    <video width="700" height="300" controls loop autoplay>
-      <source src=".\static\image\360.mp4" type="video/mp4">
+    <video width="700" height="300" playsinline controls loop autoplay muted>
+      <source src=".\static\image\360_with_caption.mp4" type="video/mp4">
     </video>
-    <figcaption>Left: Base 3DGS        Right: <b>SparseGS</b></figcaption>
-  </figure>
 </div>
 
 
@@ -72,19 +69,33 @@ We introduce a technique for real-time 360 sparse view synthesis by leveraging 3
 2. Use off-the-shelf depth estimation models to regularize novel view outputs
 3. Reconstruct regions with low coverage in training views with diffusion-model guidance
 
+## Floater Removal Example
+<div class="columns is-centered has-text-centered">
+    <video width="700" height="300" playsinline controls loop autoplay muted>
+      <source src=".\static\image\floater.mp4" type="video/mp4">
+    </video>
+</div>
+
+
 ## More Pictures
 <div style="text-align: center;">
     <figure>
-        <img src=".\static\image\gt_1.JPG" alt="Ground Truth" width="250" />
+        <img src=".\static\image\base3dgs_1.png" alt="Ground Truth" width="250" />
         <img src=".\static\image\mipnerf_1.png" alt="mipnerf" width="250" />
         <img src=".\static\image\ours_1.png" alt="ours" width="250" />
-        <img src=".\static\image\gt_2.JPG" alt="Ground Truth" width="250" />
+        <img src=".\static\image\base3dgs_2.png" alt="Ground Truth" width="250" />
         <img src=".\static\image\mipnerf_2.png" alt="mipnerf" width="250" />
         <img src=".\static\image\ours_2.png" alt="ours" width="250" />
-        <img src=".\static\image\gt_3.JPG" alt="Ground Truth" width="250" />
+        <img src=".\static\image\base3dgs_3.png" alt="Ground Truth" width="250" />
         <img src=".\static\image\mipnerf_3.png" alt="mipnerf" width="250" />
         <img src=".\static\image\ours_3.png" alt="ours" width="250" />
-        <figcaption>From left to right: GT, MipNeRF360, <b>SparseGS</b></figcaption>
+        <img src=".\static\image\base3dgs_3.png" alt="Ground Truth" width="250" />
+        <img src=".\static\image\mipnerf_3.png" alt="mipnerf" width="250" />
+        <img src=".\static\image\ours_3.png" alt="ours" width="250" />
+        <img src=".\static\image\base3dgs_4.png" alt="Ground Truth" width="250" />
+        <img src=".\static\image\mipnerf_4.png" alt="mipnerf" width="250" />
+        <img src=".\static\image\ours_4.png" alt="ours" width="250" />
+        <figcaption>From left to right: Base 3DGS, MipNeRF360, <b>SparseGS (Ours)</b></figcaption>
     </figure>
 </div>
 
