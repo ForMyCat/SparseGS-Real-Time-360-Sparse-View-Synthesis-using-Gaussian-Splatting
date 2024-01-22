@@ -96,6 +96,23 @@ We introduce a technique for real-time 360 sparse view synthesis by leveraging 3
     </figure>
 </div>
 
+## More Videos (Updating)
+<div class="columns is-centered has-text-centered">
+    <video width="700" height="300" playsinline controls loop autoplay muted>
+      <source src=".\static\image\vid_bonsai.mp4" type="video/mp4">
+    </video>
+</div>
+<div class="columns is-centered has-text-centered">
+    <video width="700" height="300" playsinline controls loop autoplay muted>
+      <source src=".\static\image\vid_garden.mp4" type="video/mp4">
+    </video>
+</div>
+<div class="columns is-centered has-text-centered">
+    <video width="700" height="300" playsinline controls loop autoplay muted>
+      <source src=".\static\image\vid_kitchen.mp4" type="video/mp4">
+    </video>
+</div>
+
 ## Table: Some sparse-view NeRF baseline comparisons on the MipNeRF360 dataset
 
 | Model         | PSNR ↑   | SSIM ↑   | LPIPS ↓ | Runtime\* (h) | Render FPS |
