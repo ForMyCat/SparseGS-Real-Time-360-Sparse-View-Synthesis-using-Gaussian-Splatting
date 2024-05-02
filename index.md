@@ -15,8 +15,7 @@ authors:
     url: https://www.ee.ucla.edu/achuta-kadambi
 affiliations: University of California, Los Angeles
 paper: https://arxiv.org/abs/2312.00206
-video: Coming Soon
-code: Coming Soon
+code: https://github.com/ForMyCat/SparseGS
 
 ---
 <div class="columns is-centered has-text-centered">
@@ -58,7 +57,7 @@ We introduce a technique for real-time 360 sparse view synthesis by leveraging 3
 
 <div style="text-align: left;">
     <figure>
-        <img src=".\static\image\model_flowchart.png" alt="Pipeline" width="800" />
+        <img src=".\static\image\model_fig.png" alt="Pipeline" width="800" />
         <figcaption>Our proposed pipeline integrates depth and diffusion constraints, along with a floater pruning technique, to enhance the performance of few-shot novel view synthesis. During training, we render the alpha-blended depth, denoted as d<sup>alpha</sup> , and employ <b>Pearson correlation</b> to ensure its alignment with the monocularly estimated depth d<sup>pt</sup>. Furthermore, we impose a <b>score distillation sampling loss</b> on novel viewpoints to guarantee the generation of naturally-appearing images. At predetermined intervals, we execute <b>floater pruning</b> as described in Section 3 of our paper. In this illustration, new components that we introduce are highlighted in color, while the foundational 3D Gaussian Splatting pipeline is depicted in grey.</figcaption>
     </figure>
 </div>
@@ -67,7 +66,9 @@ We introduce a technique for real-time 360 sparse view synthesis by leveraging 3
 ## Key Ideas
 1. Leverage the explicit gaussian representation to directly remove unwanted sparse view artifacts such as “floaters” and “background collapse”
 2. Use off-the-shelf depth estimation models to regularize novel view outputs
-3. Reconstruct regions with low coverage in training views with diffusion-model guidance
+3. Apply softmax function to gaussian depth values for better depth rendering
+4. Reconstruct regions with low coverage in training views with diffusion-model guidance
+5. Use Depth Warping to create more training views
 
 ## Floater Removal Example
 <div class="columns is-centered has-text-centered">
