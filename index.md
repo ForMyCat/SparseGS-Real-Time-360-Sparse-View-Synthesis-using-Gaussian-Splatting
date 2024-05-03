@@ -73,9 +73,10 @@ Our proposed pipeline integrates depth and diffusion constraints, along with a f
 
 
 ## Table 1: Ablation study on pipeline components
+
 | Model         | PSNR ↑   | SSIM ↑   | LPIPS ↓ | 
 |---------------|----------|----------|---------|
-| Base 3DGS    | 15.38  | 0.442  | 0.506  |
+| Base 3DGS     | 15.38    | 0.442    | 0.506   |
 | Base + Alpha-blending Depth Loss | 15.67  | 0.456   | 0.500  | 
 | Base + Softmax Depth Loss      | 16.52  | 0.587   | 0.438  | 
 | ↑ + SDS Loss        | 16.79  | 0.585   | 0.452  |
@@ -143,18 +144,18 @@ While our method does not surpass some of the previous methods specifically desi
 </div>
 
 ## More Videos (Updating)
-<div class="floater-removal">
-    <video width="700" height="300" playsinline controls loop autoplay muted>
+<div class="columns is-centered has-text-centered">
+    <video width="80%" height="80%" playsinline controls loop autoplay muted>
       <source src=".\static\image\vid_bonsai.mp4" type="video/mp4">
     </video>
 </div>
 <div class="columns is-centered has-text-centered">
-    <video width="700" height="300" playsinline controls loop autoplay muted>
+    <video width="80%" height="80%" playsinline controls loop autoplay muted>
       <source src=".\static\image\vid_garden.mp4" type="video/mp4">
     </video>
 </div>
 <div class="columns is-centered has-text-centered">
-    <video width="700" height="300" playsinline controls loop autoplay muted>
+    <video width="80%" height="80%" playsinline controls loop autoplay muted>
       <source src=".\static\image\vid_kitchen.mp4" type="video/mp4">
     </video>
 </div>
