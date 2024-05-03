@@ -20,7 +20,7 @@ code: https://github.com/ForMyCat/SparseGS
 
 ---
 <div class="columns is-centered has-text-centered">
-    <video width="700" height="300" playsinline controls loop autoplay muted>
+    <video width="100%" height="100%" playsinline controls loop autoplay muted>
       <source src=".\static\image\360_with_caption.mp4" type="video/mp4">
     </video>
 </div>
