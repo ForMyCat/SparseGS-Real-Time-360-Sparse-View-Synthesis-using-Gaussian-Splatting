@@ -72,8 +72,15 @@ Our proposed pipeline integrates depth and diffusion constraints, along with a f
 5. Use Depth Warping to create more training views
 
 ## Floater Removal Example
-<div class="columns is-centered has-text-centered">
-    <video width="700" height="300" playsinline controls loop autoplay muted>
+
+<style>
+  div.floater-removal {
+    margin-top: 12px;
+  }
+</style>
+
+<div class="floater-removal">
+    <video width="90%" height="90%" playsinline controls loop autoplay muted>
       <source src=".\static\image\floater.mp4" type="video/mp4">
     </video>
 </div>
