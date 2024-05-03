@@ -45,6 +45,7 @@ body {
 }
 
 .publication-header .hero-body {
+  padding-bottom: 0;
 }
 
 .publication-title {
@@ -156,7 +157,7 @@ body {
   border-radius: 5px;
 }
 
-h2 {
+.h2 {
   font-weight: normal;
   font-size: 32px;
 }
