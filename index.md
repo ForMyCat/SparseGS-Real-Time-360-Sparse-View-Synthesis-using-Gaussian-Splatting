@@ -75,7 +75,7 @@ Our proposed pipeline integrates depth and diffusion constraints, along with a f
 
 <style>
   div.floater-removal {
-    margin-top: 12px;
+    margin-top: 16px;
   }
 </style>
 
@@ -106,7 +106,7 @@ Our proposed pipeline integrates depth and diffusion constraints, along with a f
 </div>
 
 ## More Videos (Updating)
-<div class="columns is-centered has-text-centered">
+<div class="floater-removal">
     <video width="700" height="300" playsinline controls loop autoplay muted>
       <source src=".\static\image\vid_bonsai.mp4" type="video/mp4">
     </video>
