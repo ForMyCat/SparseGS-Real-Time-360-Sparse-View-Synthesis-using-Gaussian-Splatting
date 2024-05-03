@@ -20,7 +20,7 @@ body {
 
 .teaser .hero-body {
   padding-top: 0;
-  padding-bottom: 3rem;
+  padding-bottom: 0;
 }
 
 .teaser {
@@ -158,5 +158,5 @@ body {
 
 h2 {
   font-weight: normal;
-  font-size: 1.8em;
+  font-size: 32px;
 }
