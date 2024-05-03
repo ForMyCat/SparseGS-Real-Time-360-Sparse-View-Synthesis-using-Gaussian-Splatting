@@ -7,6 +7,8 @@
   <meta name="keywords" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title }}</title>
+  <title2>{{ page.title2 }}</title2>
+
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
         rel="stylesheet">
@@ -28,6 +30,7 @@
       <div class="columns is-centered">
         <div class="column has-text-centered">
           <h1 class="title is-1 publication-title">{{ page.title }}</h1>
+          <h2 class="title2 is-1 publication-title">{{ page.title2 }}</h2>
           {% if page.authors %}
           <div class="is-size-5 publication-authors">
             {% for author in page.authors %}
