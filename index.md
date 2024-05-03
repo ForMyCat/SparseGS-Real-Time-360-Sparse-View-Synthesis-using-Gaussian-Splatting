@@ -71,6 +71,17 @@ Our proposed pipeline integrates depth and diffusion constraints, along with a f
 4. Reconstruct regions with low coverage in training views with diffusion-model guidance
 5. Use Depth Warping to create more training views
 
+
+## Table 1: Ablation study on pipeline components
+| Model         | PSNR ↑   | SSIM ↑   | LPIPS ↓ | 
+|---------------|----------|----------|---------|
+| Base 3DGS    | 15.38  | 0.442  | 0.506  |
+| Base + Alpha-blending Depth Loss | 15.67  | 0.456   | 0.500  | 
+| Base + Softmax Depth Loss      | 16.52  | 0.587   | 0.438  | 
+| ↑ + SDS Loss        | 16.79  | 0.585   | 0.452  |
+| ↑ + Depth Warping     | 16.93  | 0.598  | 0.438  | 
+| ↑ + Floater Prunning   | **17.18**  | **0.602**   | **0.437**  | 
+
 ## Floater Removal Example
 
 <style>
@@ -84,6 +95,32 @@ Our proposed pipeline integrates depth and diffusion constraints, along with a f
       <source src=".\static\image\floater.mp4" type="video/mp4">
     </video>
 </div>
+
+## Table 2: Sparse-view baseline comparisons on the MipNeRF360 dataset
+
+| Model         | PSNR ↑   | SSIM ↑   | LPIPS ↓ | Runtime\* (h) | Render FPS |
+|---------------|----------|----------|---------|-------------|------------|
+| SparseNeRF    | 11.5638  | 0.3206   | 0.6984  | 4           | 1/120      |
+| RegNeRF       | 11.7379  | 0.2266   | 0.6892  | 4           | 1/120      |
+| Mip-NeRF 360  | <u>17.1044</u>  | <u>0.4660</u>   | 0.5750  | 3           | 1/120      |
+| Base 3DGS     | 15.3840  | 0.4415   | <u>0.5061</u>  | 0.5         | 30         |
+| ViP-NeRF      | 11.1622  | 0.2291   | 0.7132  | 4           | 1/120      |
+| SparseGS (Ours)| **17.2558**  | **0.5067**   | **0.4738**  | 0.75        | 30         |
+
+We use 12 images for each scene.
+\* Runtimes are recorded on one RTX3090.
+
+## Table 3: Sparse-view baseline comparisons on the DTU dataset
+
+| Model         | PSNR ↑   | SSIM ↑   | LPIPS ↓ | 
+|---------------|----------|----------|---------|
+| SparseNeRF    | 19.55  | 0.769   | 0.201  |
+| RegNeRF       | 18.89  | 0.745   | 0.190  | 
+| DSNeRF        | 16.90  | 0.570   | 0.450  |
+| Base 3DGS     | 14.18  | 0.6284  | 0.301  | 
+| SparseGS (Ours) | 18.89  | 0.702   | 0.229  | 
+
+While our method does not surpass some of the previous methods specifically designed for frontal scenes in the DTU dataset, we significantly enhance the original 3DGS method, achieving high visual fidelity and competitive metrics.
 
 
 ## More Pictures
@@ -122,19 +159,7 @@ Our proposed pipeline integrates depth and diffusion constraints, along with a f
     </video>
 </div>
 
-## Table: Some sparse-view NeRF baseline comparisons on the MipNeRF360 dataset
 
-| Model         | PSNR ↑   | SSIM ↑   | LPIPS ↓ | Runtime\* (h) | Render FPS |
-|---------------|----------|----------|---------|-------------|------------|
-| SparseNeRF    | 11.5638  | 0.3206   | 0.6984  | 4           | 1/120      |
-| Base 3DGS     | 15.3840  | 0.4415   | <u>0.5061</u>  | 0.5         | 30         |
-| Mip-NeRF 360  | **17.1044**  | <u>0.4660</u>   | 0.5750  | 3           | 1/120      |
-| RegNeRF       | 11.7379  | 0.2266   | 0.6892  | 4           | 1/120      |
-| ViP-NeRF      | 11.1622  | 0.2291   | 0.7132  | 4           | 1/120      |
-| Ours          | <u>16.6898</u>  | **0.4899**   | **0.4849**  | 0.75        | 30         |
-
-We use 12 images for each scene.
-\* Runtimes are recorded on one RTX3090.
 
 
 ## Citation
